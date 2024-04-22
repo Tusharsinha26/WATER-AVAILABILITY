@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head><title>Responsive Blog Cards</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        ul {
+            margin: 0px;
+            padding: 0px;
+          }
+          a:focus, a:hover, .portfolio-cat a:hover, .footer -menu li a:hover {
+            color: #2B96CC;
+            text-decoration: none;
+          }
+          .section-title h2 {
+          position: relative;
+          margin-bottom: 45px;
+          display: inline-block;
+          font-weight: 600;
+          line-height: 1;
+          }
+          .section-title h2::before {
+            content: "";
+            position: absolute;
+            left: 50%;
+            width: 60px;
+            height: 2px;
+            background: #ff5e14;
+            bottom: -25px;
+            margin-left: -30px;
+          }
+          .section-title.service-title p {
+          margin-bottom: 10px;
+          }
+          .blog-area {
+            background: #F8F9FA;
+            min-height: 100vh;
+          }
+          .blog-wrapper {
+          background: #fff;
+          overflow: hidden;
+          padding: 20px;
+          }
+          .home-blog-wrapper{
+          transition: .3s;
+          }
+          .blog-wrapper.home-blog-wrapper:hover {
+          box-shadow: 10px 20px 30px rgba(0,0,0,.12);
+          }
+          .blog-thumb {
+          margin-bottom: 20px;
+          }
+          .blog-title {
+          display: inline-block;
+          font-size: 30px;
+          font-weight: 600;
+          line-height: 1.4;
+          margin: 10px 0 15px;
+          padding: 0;
+          text-align: left;
+          }
+          .blog-content.home-blog h2 {
+          font-size: 18px;
+          margin-bottom: 10px;
+          }
+          .blog-content.home-blog p {
+          margin-bottom: 10px;
+          }
+          .link-box.home-blog-link a {
+          font-size: 14px;
+          color: #ff5e14;
+          }
+          .blog-title a {
+          color: #222;
+          }
+          .link-box a {
+          color: #555;
+          }
+          .link-box a:hover {
+          color: #ff5e14;
+          }
+          .blog-title a:hover {
+          color: #ff5e14;
+          }
+          .meta-info ul li {
+          color: #9e9e9e;
+          display: inline-block;
+          font-size: 11px;
+          padding: 0 12px;
+          position: relative;
+          text-transform: uppercase;
+          font-weight: 700;
+          }
+          .embed-responsive {
+          margin-bottom: 20px;
+          }
+          .meta-info ul li:first-child{padding-left:0}
+          .meta-info ul li a{color:#ff5e14}
+          .meta-info ul li a:hover{color:#444}
+          .meta-info ul li::before {
+          border: 1px solid #999;
+          border-radius: 5px;
+          content: "";
+          height: 5px;
+          left: -4px;
+          position: absolute;
+          top: 6px;
+          width: 5px;
+          }
+          .meta-info ul li:first-child:before{display:none}
+          .blog-thumb img {
+          width: 100%;
+          }
+          .link-box a {
+          font-weight: 600;
+          }
+    </style>
+  </head>
+  <body>
+  <section class="blog-area pt-5 pb-5">
+  <div class="container">
+      <div class="row">
+          <div class="col-xl-12 text-center pb-3">
+              <div class="section-title service-title">
+                  <h2>Government Websites Related to WATER AVAILABILITY</h2>
+                  <p>Welcome to our official portal dedicated to water availability. Our platform provides comprehensive data, analysis, and resources on the current status of water resources within a particular region or any state each state is having it's own website. From real-time updates on reservoir levels and precipitation patterns to long-term forecasts and water usage guidelines, we empower stakeholders to make informed decisions and implement sustainable water management practices. Explore our interactive maps, reports, and tools to understand, monitor, and preserve the availability of this vital resource for present and future generations.</p>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="blog-wrapper home-blog-wrapper white-bg">
+                  <div class="blog-thumb">
+                      <a href="">
+                          <img src="" alt="" />
+                      </a>
+                  </div>
+                  <div class="meta-info">
+                      <ul>
+                          <li class="posts-time">August 26, 2022</li>
+                      </ul>
+                  </div>
+                  <div class="blog-content home-blog">
+                      <h2 class="blog-title">
+                          <a href="https://website-295.demosl-02.rvsolutions.in/en">Water Resources Department</a>
+                      </h2>
+                      <p>Welcome to the official website of the Water Resources Department, dedicated to managing and monitoring the availability and distribution of water resources across a particular region or any state/ each state is haveing it's own website. Here, you can access real-time data on reservoir levels, river flows, and precipitation, empowering you to make informed decisions about water usage and conservation.</p>
+                  </div>
+                  <div class="link-box home-blog-link">
+                      <a href="https://website-295.demosl-02.rvsolutions.in/en">Website Link</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="blog-wrapper home-blog-wrapper white-bg">
+                  <div class="blog-thumb">
+                      <a href="">
+                          <img src="" alt="" />
+                      </a>
+                  </div>
+                  <div class="meta-info">
+                      <ul>
+                          <li class="posts-time">July 08, 2022</li>
+                      </ul>
+                  </div>
+                  <div class="blog-content home-blog">
+                      <h2 class="blog-title">
+                          <a href="https://www.usgs.gov/">National Water Information System</a>
+                      </h2>
+                      <p>The National Water Information System (NWIS) serves as a comprehensive platform for accessing data and information on water resources nationwide. From groundwater levels to surface water quality assessments, NWIS provides valuable insights into the availability and quality of water resources, supporting sustainable management practices and ensuring the well-being of communities and ecosystems.</p>
+                  </div>
+                  <div class="link-box home-blog-link">
+                      <a href="https://www.usgs.gov/">Website Link</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div class="blog-wrapper home-blog-wrapper white-bg">
+                  <div class="blog-thumb">
+                      <a href="">
+                          <img src="" alt="" />
+                      </a>
+                  </div>
+                  <div class="meta-info">
+                      <ul>
+                          <li class="posts-time">June 10, 2022</li>
+                      </ul>
+                  </div>
+                  <div class="blog-content home-blog">
+                      <h2 class="blog-title">
+                          <a href="https://iwrmdataportal.unepdhi.org/">Water Availability and Management Portal</a>
+                      </h2>
+                      <p>Our Water Availability and Management Portal is your gateway to understanding the dynamic nature of water resources in [Region/Country]. Through interactive maps, reports, and analysis tools, stakeholders can explore current water availability trends, identify areas of scarcity, and collaborate on strategies for efficient water management and conservation.</p>
+                  </div>
+                  <div class="link-box home-blog-link">
+                      <a href="https://iwrmdataportal.unepdhi.org/">Website Link</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+  </body>
+</html>
